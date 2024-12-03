@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spell Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="background-container">
+        <div class="content-container">
+            <h1 class="title" id="title">Spell Checker</h1>
+            <form id="spellCheckerForm" class="spellCheckerForm" action="/submit" method="post">
+                <div class="input-container">
+                    <i class="fas fa-book icon"></i>
+                    <input type="text" id="inputWord" name="inputWord" class="input-bar" placeholder="Enter a word to check its spelling" autofocus>
+                </div>
+            </form>
+            <div id="results"></div>
+            <div class="subtitle visible" id="subtitle">Also on mobile!</div>
+        </div>
+        <div class="footer">
+            <p id="createdBy">Created by Charlie Whittleman</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</html>
